@@ -13,6 +13,7 @@
 	<groupId>com.loiko.alex</groupId>
 	<artifactId>config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>Configuration server</name>
 	<description>Spring Cloud Configuration server</description>
 
@@ -54,10 +55,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
 		</dependency>
 	</dependencies>
 
